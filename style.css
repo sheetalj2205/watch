@@ -23,10 +23,10 @@ body{
 }
     h1 {
     position: absolute;
-    font-size: 30px;
+    font-size: 35px;
     background-color:transparent;
     color:black;
-    top:120px;
+    top:140px;
     right: 50px;
     border-radius: 10px;
     text-align: center;
@@ -38,7 +38,7 @@ body{
   color: brown;
 }
 .blue{
-  height:132vh;
+  height:127vh;
   background-color:white;
   opacity: 0.9;
 }
