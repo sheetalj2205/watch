@@ -1,0 +1,288 @@
+body{
+  height: 100%;
+  padding: 0px;
+
+}
+.navbar-brand{
+  font-family: 'Libre Baskerville', serif;
+}
+
+/* .navbar{
+  height:50px;
+  font-size: 20px;
+  font-color:black;
+  text-align: center;
+  padding-top: 10px;
+  background-color:white;
+  justify-content: center;
+} */
+.container-fluid{
+  width: 100%;
+  padding-left: 0px;
+  height: 100vh;
+}
+.green{
+  background: url('6.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width:100%;
+  padding-top: 0px;
+  padding-left: 0;
+  padding-right: 0;
+  opacity: 0.85;
+
+}
+    h1 {
+    position: absolute;
+    font-size: 33px;
+    background-color:transparent;
+    color:black;
+    top:140px;
+    right: 38px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+}
+
+.txt-rotate{
+  color: brown;
+}
+.blue{
+  height:100vh;
+  background-color:white;
+  opacity: 0.9;
+}
+
+.rowHeight{
+  height: 150px;
+}
+
+.pr{
+  font-weight: bold;
+  font-size: 12px;
+}
+.price{
+  font-size: 10px;
+}
+
+.conatiner-fluid blue:hover {
+  background-color: rgba(48, 152, 157, 0.4);
+}
+
+.blue  {
+  display: block;
+  position: relative;
+}
+.ora{
+  height:1000px;
+}
+.store{
+  height:200px;
+  background-color: #f5f1f0;
+  justify-content: center;
+  text-align: center;
+
+}
+.st{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  padding-top:20px;
+
+}
+.foot{
+  background-color:white;
+  opacity: 0.6;
+  height:350px;
+}
+.last{
+  height:970px;
+  background-color: black;
+  color:white;
+}
+.tv{
+  font-size: 13px;
+  letter-spacing:0.1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* padding-top: 30px; */
+}
+.tz{
+  font-size: 15px;
+  letter-spacing:0.1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 60px;
+  font-weight: bold;
+  opacity: 1;
+}
+.rs{
+  height: 28px;
+}
+.rw{
+  height:15px;
+}
+.intro{
+  color:white;
+  font-weight: bold;
+  font-size: 13px;
+}
+.text{
+  color:white;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#2a2b2a;
+  color: white;
+  height: 150px;
+}
+.tn{
+  padding: 13px;
+  font-size: 9px;
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px){
+
+   .navbar{
+    height:50px;
+    font-size: 15px;
+    color:black;
+    padding-top: 10px;
+    background-color: white;
+    position: static;
+  }
+.navbar-brand{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 18px;
+}
+.nav-item{
+  float: right;
+}
+    h1 {
+     position: absolute;
+     font-size: 80px;
+     background-color:transparent;
+     color:black;
+     top:230px;
+     right: 260px;
+     border-radius: 10px;
+     text-align: center;
+     font-family: 'Raleway', sans-serif;
+     overflow: hidden;
+ }
+ .green{
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height:100vh;
+   width:100%;
+   padding-top: 0px;
+   padding-left: 0;
+   padding-right: 0;
+   opacity: 0.85;
+ }
+ .blue{
+   height:100vh;
+   background-color:white;
+   opacity: 0.9;
+ }
+ .rowHeight{
+   height: 250px;
+ }
+ .pr{
+   font-weight: bold;
+   font-size: 18px;
+ }
+ .price{
+   font-size: 15px;
+ }
+ .store{
+   height:200px;
+   background-color: #f5f1f0;
+   text-align: center;
+}
+ .st{
+   font-family: 'Libre Baskerville', serif;
+   font-weight: bold;
+   color: black;
+   font-size: 25px;
+   padding-top:20px;
+
+ }
+
+.loc{
+  background-color: black;
+  height: 15px;
+}
+ .ora{
+   height: 550px;
+ }
+ .foot{
+   background-color: white;
+   opacity: 0.6;
+   height: 200px;
+
+ }
+ .tv{
+   font-size: 13px;
+   letter-spacing:0.1px;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 30px;
+ }
+ .tz{
+   font-size: 15px;
+   letter-spacing:0.1px;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 60px;
+ }
+ .last{
+   height:300px;
+   background-color: black;
+   color:white;
+ }
+ .rs{
+   height: 28px;
+ }
+ .rw{
+   height:15px;
+ }
+ .intro{
+   color:white;
+   font-weight: bold;
+   font-size: 16px;
+ }
+ .text{
+   color:white;
+ }
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#2a2b2a;
+  color: white;
+  height: 50px;
+}
+.tn{
+  padding: 13px;
+  font-size: 15px;
+}
